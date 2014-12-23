@@ -42,15 +42,13 @@ Here's an example:
 
 ```js
 var hashMatch = require(hash-match);
-var router = require('wayfarer')({qs: false});
+var router = require('wayfarer')({ default: '/' });
 
-router.default('/');
-
-router.route('/', function () {
+router.on('/', function () {
   console.log('root route')
 })
 
-router.route('/wat', function () {
+router.on('/wat', function () {
   console.log('wat')
 })
 
