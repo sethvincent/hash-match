@@ -1,7 +1,5 @@
-var Router = require('wayfarer');
 var hashMatch = require('./');
-
-var router = Router({ qs: false });
+var router = require('wayfarer')({qs: false});
 
 router.default('/');
 

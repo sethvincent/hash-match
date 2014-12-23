@@ -42,7 +42,7 @@ Here's an example:
 
 ```
 var hashMatch = require(hash-match);
-var router = require('wayfinder')({qs: false});
+var router = require('wayfarer')({qs: false});
 
 router.default('/');
 
