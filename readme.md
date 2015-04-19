@@ -41,7 +41,7 @@ For feeding the output of hash-match into a router like [wayfarer](https://githu
 Here's an example:
 
 ```js
-var hashMatch = require(hash-match);
+var hashMatch = require('hash-match');
 var router = require('wayfarer')({ default: '/' });
 
 router.on('/', function () {
