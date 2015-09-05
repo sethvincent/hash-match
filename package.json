@@ -1,7 +1,7 @@
 {
   "name": "hash-match",
   "description": "match location.hash to routes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "url": "git://github.com/sethvincent/hash-match.git"
   },
