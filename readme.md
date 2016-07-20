@@ -65,3 +65,6 @@ window.addEventListener('hashchange', function (e) {
   router.match(hashMatch(window.location.hash));
 });
 ```
+
+## License
+[MIT](LICENSE.md)
